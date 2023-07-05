@@ -1,0 +1,399 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3964943408953852130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3964943408953852140}
+  - component: {fileID: 3964943408953852131}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3964943408953852140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3964943408953852130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8000002, y: 9.9, z: -0.6403607}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3964943408953852131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3964943408953852130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba15216d8666434c91e4dd0f021e325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonidos:
+  - name: Nave_Forward
+    clip: {fileID: 8300000, guid: e3a25f6a5e88b21479e7be785ea67a9b, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Nave_Quieta
+    clip: {fileID: 8300000, guid: 561f8063341f7e047b496066ebaec379, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Disparo_Leuko
+    clip: {fileID: 8300000, guid: 7b9a95d675d160644b7ca6d47d01bffb, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Disparo_Baby
+    clip: {fileID: 8300000, guid: 7310aa2f55dfc5949873b8507ec33a2c, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Destruccion_Enemies
+    clip: {fileID: 8300000, guid: 908ebbab6399f2646a6890e1b36f45fb, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: "Da\xF1o_Leuko"
+    clip: {fileID: 8300000, guid: b9086efa150c12e48aab9f40db491a51, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Memory_On
+    clip: {fileID: 8300000, guid: 0109b826384cc184796a7e8dc8e42aea, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Despegue_Final
+    clip: {fileID: 8300000, guid: 882dd0e73fa83264b825480c4fdd9fb4, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Music_Naves
+    clip: {fileID: 8300000, guid: 28c3efdf1ae0cc341b9b238c9ba5b430, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Press_btnJugar
+    clip: {fileID: 8300000, guid: b35846810cc39804e8f9b44044b16b15, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Press_btnOpciones
+    clip: {fileID: 8300000, guid: 30cf9d9f439fe314080e283a3c6c507d, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Press_btnOpcionesBack
+    clip: {fileID: 8300000, guid: 12cef22c47dc94c4cae59269cfc3d8ec, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Inicio_Music
+    clip: {fileID: 8300000, guid: 5d344fefb022e584db6b9c950c3a7ee2, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Correr
+    clip: {fileID: 8300000, guid: 2d9ff24327df3534fb24a21294cfd709, type: 3}
+    volume: 0.05
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Salto
+    clip: {fileID: 8300000, guid: 111ed634840b90e46a1a43325f6f2658, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Trampolin
+    clip: {fileID: 8300000, guid: c8c6ec5d1d9a1d1418ffa1f8f263da60, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Escupitajo
+    clip: {fileID: 8300000, guid: 5e6fe3964cb192447a748ef66a2de1e4, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: "Gru\xF1ido"
+    clip: {fileID: 8300000, guid: 383e9bb74fc0a8345813047f1fc5e6c0, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: BalaGolpeaPared
+    clip: {fileID: 8300000, guid: 4fa6d6ffe0bce364a99f055df5df74ea, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: "RecibirDa\xF1o"
+    clip: {fileID: 8300000, guid: 7763a88aed958ab4ebca2cdc588e3b4c, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: BlastoMuerte
+    clip: {fileID: 8300000, guid: 936f1a3024b505143884f63771158dc5, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Pieza
+    clip: {fileID: 8300000, guid: 4f639e9b5130c3545b88d3cf27468e12, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Coleccionable
+    clip: {fileID: 8300000, guid: 98b767200cbe8854bb56a0b3f62f7cf1, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Music_Plataformas
+    clip: {fileID: 8300000, guid: 0e5b9532796a5e74c9c503bef28857aa, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: DisparoBP
+    clip: {fileID: 8300000, guid: 26faa7a186abd354587e0dd8380f4d52, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Memory_Click
+    clip: {fileID: 8300000, guid: 35891da9b98d35442b6a32caece511cc, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Memory_Acierto
+    clip: {fileID: 8300000, guid: 894f456f311a93b4a8a24c6355bad736, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Memory_Error
+    clip: {fileID: 8300000, guid: 84835b8e405df494a847f4240ac3351f, type: 3}
+    volume: 0
+    pitch: 0
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Lanzamiento_Topos
+    clip: {fileID: 8300000, guid: ced40e5529c0e064aa1bf89a28541d7b, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: MusicTopos
+    clip: {fileID: 8300000, guid: 7e04745a2d8cc4a48850ce0628c471c1, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Pick_Paquete
+    clip: {fileID: 8300000, guid: 4b1a0e0bcc556ba4cbd3de31cffd2271, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Pick_Paquete_V2
+    clip: {fileID: 8300000, guid: 03d2ae4fc0283a3448d0faa3046d07f7, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Paquete_Recogido
+    clip: {fileID: 8300000, guid: 068c5f74cb75ad941b2befad56b54ae1, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Paquete_Roto
+    clip: {fileID: 8300000, guid: bab3ec45f48c5604d91c55f4ebbdc137, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Music_Envialia
+    clip: {fileID: 8300000, guid: 01a8b55cab6ff4249b096943931ab4b5, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Ambient
+    clip: {fileID: 8300000, guid: def497294b12a444bb7bd5d067e331df, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Press_btnDiario
+    clip: {fileID: 8300000, guid: 7c5fbacf9920f6d4397c23090bb9de02, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Press_btnInfo
+    clip: {fileID: 8300000, guid: e4b0ec2656779694d9fd9c02053e94dc, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Press_btnPlanet
+    clip: {fileID: 8300000, guid: 0bae2666bfd06214ab462d2fa8dd0bf6, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Press_unlockedLvl
+    clip: {fileID: 8300000, guid: f38a01e8aab7bfa4882ec0f713b6b080, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Press_lockedLvl
+    clip: {fileID: 8300000, guid: a7bd68e5d277aa34d8c6feffdcd0e7b4, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: LvlStart
+    clip: {fileID: 8300000, guid: e710ecd47ca62dc4b9447afd2f2b7eab, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Music_SeleccionNivel
+    clip: {fileID: 8300000, guid: a19cbc4f8f278b24695b531c86b8de3d, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Aterrizar
+    clip: {fileID: 8300000, guid: 91dd6599d6ae8c04aac56bc8e29c5ff8, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    maxDistanceToSound: 0
+    loop: 0
+    source: {fileID: 0}
+  sonidosVolume: []
